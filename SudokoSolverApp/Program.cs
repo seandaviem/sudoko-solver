@@ -16,8 +16,12 @@
 //                   {0, 4, 0, 0},
 //                 };
 
-RecursiveSudoku recursiveSudoku = new RecursiveSudoku(numbers);
-recursiveSudoku.Solve();
+
+Sudoku sudoku = new Sudoku(numbers);
+sudoku.Solve();
+
+// RecursiveSudoku recursiveSudoku = new RecursiveSudoku(numbers);
+// recursiveSudoku.Solve();
 
 
 
